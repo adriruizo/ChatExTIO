@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatExTIO</title>
+
+	<meta charset="utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<script type="text/javascript" src="/static/js/dev-vue.js"></script>
+	{% block css %} {% endblock %}
+
+	{% block js %}{% endblock %}
+</head>
+<body>
+	<!-- Image and text -->
+	<nav class="navbar navbar-dark bg-dark">
+	  <span class="navbar-brand" href="#">
+		<img src="/static/img/escudo.jpeg" width="60" height="60" class="d-inline-block align-top" alt="">
+		ChatExTIO - Chatbot del Examen de Traductor e Intérprete Oficial de la Universidad de Antioquia &nbsp;&nbsp; <a href="creditos" style="color:white;font-size: smaller;">Créditos</a> &nbsp;&nbsp; <a href="descripcion" style="color:white;font-size: smaller;">Descripción</a>
+	  </span>
+	</nav>
+
+	{% block content %}{% endblock %}
+</body>
+</html>
